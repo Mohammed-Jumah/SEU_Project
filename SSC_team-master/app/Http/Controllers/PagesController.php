@@ -24,9 +24,10 @@ class PagesController extends Controller
     public function getlogin(){
         return view('login');
     }
-    public function getRegistration(){
+   /* public function getRegistration(){
         return view('registration');
-    }
+    }*/
+
     public function getSendEmail(){
         return view('SendEmail');
     }

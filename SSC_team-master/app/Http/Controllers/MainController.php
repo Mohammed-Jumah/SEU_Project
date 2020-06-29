@@ -36,6 +36,7 @@ class MainController extends Controller
 
     }
 
+
     function logout()
     {
      Auth::logout();

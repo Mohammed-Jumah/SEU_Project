@@ -25,7 +25,9 @@ Route::post('/checklogin', 'MainController@checklogin');
 Route::get('/logout', 'MainController@logout');
 Route::get('/dashboard/{id}','MessageController@deleteMessages')->name('dltmsg');
 Route::get('/dashboard/show/{id}','MessageController@showmessage')->name('showmsg');
-Route::get('/registration', 'PagesController@getRegistration');
+
+Route::post('/register', 'RegistrationController@store');
+Route::get('/register', 'RegistrationController@create');
 
 Route::get('/SendEmail', 'PagesController@getSendEmail');
 Route::post('/SendEmail', 'PagesController@SendEmail');

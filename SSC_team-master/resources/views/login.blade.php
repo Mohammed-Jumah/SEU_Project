@@ -48,6 +48,10 @@
     <div class="form-group">
      <input type="submit" name="login" class="btn btn-primary" value="Login"  />
     </div>
+
+    <p class="loginhere">
+    Need an account? <a href="/register" class="loginhere-link">Sign up here</a>
+    </p>
    </form>
   </div>
  </body>
